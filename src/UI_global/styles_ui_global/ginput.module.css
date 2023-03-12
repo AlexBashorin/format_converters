@@ -1,0 +1,24 @@
+.fileupload {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-weight: 900;
+    display: inline-block;
+    padding: 6px 12px 8px 12px;
+    cursor: pointer;
+}
+.fileupload:hover {
+    background: turquoise;
+}
+
+input[type="file"] {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.fileupload:focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}

@@ -1,0 +1,15 @@
+.mainbtn {
+    width: max-content;
+    height: max-content;
+    padding: 6px 12px 8px 12px;
+    margin: 0 10px;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+    background: teal;
+    color: #fff;
+    cursor: pointer;
+}
+.mainbtn:hover {
+    background: rgb(1, 107, 107);
+}
